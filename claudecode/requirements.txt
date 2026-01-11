@@ -16,3 +16,4 @@ anthropic>=0.39.0
 
 # Note: Claude CLI tool must be installed separately
 # The claude command-line tool is required for security analysis
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
